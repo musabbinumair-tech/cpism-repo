@@ -136,7 +136,7 @@ section{
   }
   .ad-main-container{
     width: 100%;
-    height: 500x;
+    height: 420px;
     justify-items: center;
     background-color: #f5f5f5;
   }
@@ -171,14 +171,14 @@ section{
   .ad-cards h3{
     font-size: 18px;
     color: #324a84;
-    font-weight: 700;
+    font-weight: 650;
     margin-left: 5px;
     margin-bottom: 0px;
   }
   .ad-cards .price{
     font-size: 16px;
     color: #4ebb58;
-    font-weight: 600;
+    font-weight: normal;
     margin-top: -12px;
     margin-left: 3px;
   }
@@ -196,5 +196,144 @@ section{
     padding: 5px 10px;
     font-weight: 600;
   }
+
+
+  .featured-main-container{
+    width: 100%;
+    height: 430px;
+    justify-items: center;
+    background-color: white;
+  }
+  .featured-heading{
+    margin-right: 760px;
+  }
+  .featured-container{
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    margin-right: 17px;
+  }
+  .featured-cards{
+    width: 250px;
+   height: 290px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .featured-cards:hover{
+    transform: translateY(-5px);
+  }
+  .featured-pictures{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .featured-cards h3{
+    font-size: 18px;
+    color: #324a84;
+    font-weight: 650;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
+  .featured-cards .price{
+    font-size: 16px;
+    color: #4ebb58;
+    font-weight: normal;
+    margin-top: -12px;
+    margin-left: 3px;
+  }
+  .featured-cards .city{
+    font-size: 14px;
+    color: #8c93a4;
+    font-weight: 500;
+    margin: -5px 0 0 3px;
+  }
+  .badge{
+    position: absolute;
+    background-color: #b73439;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    font-weight: 600;
+  }
+  .new-main-container{
+    width: 100%;
+    height: 460px;
+    justify-items: center;
+    background-color: #f5f5f5;
+  }
+  .new-heading-nav{
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid; */
+    padding-left: 270px;
+  }
+  .new-heading{
+    color: #5b5a5a;
+  }
+  .new-container{
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    margin-right: 17px;
+    margin-top: 10px;
+  }
+
+  .new-cards{
+    width: 250px;
+   height: 290px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  .new-cards:hover{
+    transform: translateY(-5px);
+  }
+  .new-pictures{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .new-cards h3{
+    font-size: 18px;
+    color: #324a84;
+    font-weight: 650;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    margin-top: -18px;
+  }
+  .new-cards .price{
+    font-size: 16px;
+    color: #4ebb58;
+    font-weight: normal;
+    margin-top: -15px;
+    margin-left: 3px;
+  }
+  .new-cards .rating{
+    font-size: 14px;
+    color: #5b5a5a;
+    font-weight: 550;
+    margin-top: -11px;
+  }
+  .checked{
+    color: orange;
+  }
+  .star{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+  }
+  
+  
+  
   
   
