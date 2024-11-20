@@ -365,6 +365,7 @@ section{
     border: 1px solid white;
     border-radius: 50%;
     overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   .car-brands-pictures{
     width: 68px;
