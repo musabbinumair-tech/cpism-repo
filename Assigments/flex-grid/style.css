@@ -353,6 +353,7 @@ section{
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(6,1fr);
     gap: 90px;
+    row-gap: 30px;
     margin-top: 10px;
   }
   .car-brands-card{
