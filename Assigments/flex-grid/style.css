@@ -334,7 +334,7 @@ section{
   }
   
 
-
+                                    /* Car Brands Logo section */
 
 
   .car-brands-main-container{
@@ -356,8 +356,20 @@ section{
     margin-top: 10px;
   }
   .car-brands-card{
-    width: 75px;
-    height: 75px;
+    justify-items: center;
+  }
+  .brand-name{
+    color: #233d7f;
+    font-weight: 600;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+  .brand-name:hover{
+    transform: translateY(1px);
+    color: #518ecb;
+  }
+  .image-card{
+    width: 72px;
+    height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -366,6 +378,7 @@ section{
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, color 0.2s ease;
   }
   .car-brands-pictures{
     width: 68px;
