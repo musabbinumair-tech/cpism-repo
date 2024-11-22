@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+.header{
+    background-color: #f85606;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 0 0 50px;
+    height: 120px;
+}
+.daraz-logo img{
+    height: 45px;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+.search-bar{
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px 5px;
+}
+.search-bar input{
+    width: 640px;
+    height: 45px;
+    border: none;
+    border-radius: 2px 0 0 2px;
+    padding-left: 18px;
+    margin-left: 50px;
+    color: #9e9eb7;
+    font-weight: 500;
+}
+.search-bar button{
+    background-color: #ffe1d2;
+    border: none;
+    border-radius: 0 2px 2px 0;
+    padding: 10px;
+    cursor: pointer;
+    width: 45px;
+    height: 47px;
+}
+.search-bar button img{
+    height: 22px;
+}
+.header-nav{
+    display: flex;
+    gap: 55px;
+    position: absolute;
+    top: 5px;
+    right: 60px;
+}
+.header-nav p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.header-nav:hover{
+    text-decoration: underline;
+}
+.cart-icon img{
+    height: 45px;
+    position: absolute;
+    right: 285px;
+    margin-top: -25px;
+
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    
+}
+.banner img{
+    width: 900px;
+}
+#portrait-img{
+    width: 170px;
+}
+.sale-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -320px;
+    background-color: #f5f5f5;
+}
+
+
+
+
+.sale-bar-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+.sale-bar-container{
+    width: 1180px;
+}
+.sale-bar-container h1{
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.sale-bar{
+    width: 1160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: #f67224;
+    padding: 0 15px ;
+}
+.sale-bar p{
+    background-color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.shop-all{
+    position: absolute;
+    right: 90px;
+    border: 1px solid #f67224;
+    padding: 5px 10px ;
+    cursor: pointer;
+}
+.flash-sale-main{
+    width: 100%;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    display: flex;
+}
+.flash-sale-container{
+    display: flex;
+    gap: 10px;
+    height: 200px;
+    margin-top: 3px;
+    background-color: white;
+    padding-top: 15px;
+    margin-left: 10px;
+
+}
+.flash-sale-cards{
+    width: 190px;
+    height: 290px;
+    background-color: white;
+}
+.flash-sale-cards img{
+    height: 190px;
+}
+.flash-sale-title{
+    padding-left: 5px;
+    font-size: 15px;
+    padding-top: 4px;
+}
+.flash-sale-price{
+    padding-top: 3px;
+    color: #f67224;
+    font-weight: 500;
+    padding-left: 5px;
+    font-size: 17px;
+}
+strike{
+    color: #bababa;
+}
+.flash-sale-discount{
+    font-size: 13px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
